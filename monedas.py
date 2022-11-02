@@ -128,6 +128,6 @@ for moneda in monedas:
                   moneda.grosor, moneda.num_bordes, moneda.peso]
 
 
-cadena = f"{moneda} - Color: {moneda.color}, Diametro: {moneda.diametro}, Grosor: {moneda.grosor}, Valor: {moneda.valor}, Bordes: {moneda.num_bordes}, Peso: {moneda.peso}"
+cadena = "{} - Color: {}, Valor: {}, Diametro: {}, Grosor: {}, Bordes: {}, Peso: {}".format(*argumentos)
 print(cadena)
 
